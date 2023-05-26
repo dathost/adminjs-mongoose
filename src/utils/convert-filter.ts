@@ -13,6 +13,14 @@ export const convertFilter = (filter) => {
   }
   return filter.reduce((memo, filterProperty) => {
     const { property, value } = filterProperty
+
+    if (filterProperty.path.includes('__')) {
+      return {
+        [filterProperty.path.replaceAll('__', '.')]: value,
+        ...memo,
+      }
+    }
+
     switch (property.type()) {
     case 'string':
       return {
