@@ -1,5 +1,5 @@
 {
-  "name": "@adminjs/mongoose",
+  "name": "dathost-adminjs-mongoose",
   "version": "4.0.0",
   "description": "Mongoose adapter for adminjs",
   "type": "module",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoftwareBrothers/adminjs-mongoose.git"
+    "url": "git+https://github.com/dathost/adminjs-mongoose.git"
   },
   "author": "Wojciech Krysiak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SoftwareBrothers/adminjs-mongoose/issues"
+    "url": "https://github.com/dathost/adminjs-mongoose/issues"
   },
-  "homepage": "https://github.com/SoftwareBrothers/adminjs-mongoose#readme",
+  "homepage": "https://github.com/dathost/adminjs-mongoose#readme",
   "peerDependencies": {
     "adminjs": "^7.0.0",
     "mongoose": ">=5"
